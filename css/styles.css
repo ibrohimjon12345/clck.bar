@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 26px;
+    padding-bottom: 32px;
+    background-color: white;
+}
+.header-container {
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+.header-nav-item {
+    list-style: none;
+}
+.header-nav-link {
+    font-family: 'Muller', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #050509;
+    text-decoration: none;
+}
+.header-nav-right {
+    display: flex;
+    gap: 16px;
+    background-color: #161A23;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 56px;
+}
+.header-nav-right-item {
+    list-style: none;
+}
+.header-nav-right-link {
+    text-decoration: none;
+    font-family: 'Muller', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+}
+
+.header-nav-right-item2{
+    list-style: none;
+}
+.header-nav-right-link2{
+    text-decoration: none;
+    font-family: 'Muller',sans-serif;
+    color: #050509;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+}
+
+
+
+
+/* BANNER */
+
+.banner {
+    padding-top: 32px;
+    padding-bottom: 120px;
+}
+.banner-container {
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-left {
+}
+.banner-left-title {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    font-family: 'Muller', sans-serif;
+    color: #050509;
+    margin-bottom: 8px;
+}
+.banner-left-text {
+    font-family: 'Muller', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 8px;
+    color: #FF76D9;
+    max-width: 468px;
+}
+
+.banner-left-text2{
+    font-family: 'Muller', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 8px;
+    color: #050509;
+    max-width: 468px;
+}
+
+.banner-left-text3{
+    font-family: 'Muller', sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 8px;
+    color: #050509;
+    max-width: 468px;
+}
+
+.banner-left-button {
+
+}
+.banner-left-button-link {
+}
+.banner-right {
+    display: flex;
+}
+.banner-right-img {
+}

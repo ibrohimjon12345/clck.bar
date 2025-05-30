@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.pixel-container {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 28px 112px;
+    position: relative;
+}
+
+.pixel-container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+
+.pixel-nav-clikbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.pixel-nav-clikbar-a {
+    color: rgb(22, 26, 35);
+    font-family: "Muller", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.pixel-nav-telegram {
+    color: rgb(22, 26, 35);
+    font-family: "Muller", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 140%;
+    opacity: 0.5;
+}
+
+.pixel-nav-center-link {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.pixel-center-center-link-a {
+    color: rgb(22, 26, 35);
+    font-family: "Muller", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.pixel-nav-right-btn-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pixel-nav-right-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 56px;
+    background-color: rgb(22, 26, 35);
+    color: rgb(255, 255, 255);
+    font-family: "Muller", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    z-index: 1;
+}
+
+.pixel-nav-right-img {
+    position: absolute;
+    left: 84px;
+}
+
+.pixel-container-left-right-section {
+    margin-top: 120px;
+}
+
+.pixel-left-section {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.pixel-left-section-title {
+    width: 638px;
+    color: rgb(22, 26, 35);
+    font-family: "Muller", sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.pixel-left-section-description {
+    width: 590px;
+    color: rgb(22, 26, 35);
+    font-family: "Muller", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.pixel-right-section {
+    background-image: url(../pixel/pixelImg/Right.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 1048px;
+    height: 794px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.pixel-right-section-card-left {
+    margin-top: 560px;
+    margin-left: 150px;
+}
+
+.pixel-right-section-card-telegram {
+    width: 211px;
+    height: 73px;
+    border-radius: 18px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+
+.pixel-right-section-card-telegram-p {
+    color: rgb(0, 0, 0);
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.pixel-right-section-card-number {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.pixel-right-section-card-number-p {
+    color: rgb(0, 0, 0);
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.pixel-right-section-card-number-span {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+    color: rgb(37, 211, 102);
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.pixel-right-section-card-follow {
+    margin: 105px 129px;
+}
+
+.pixel-right-section-card-right{
+    margin-top: 503px;
+}
+
+.pixel-right-section-card-right-telegram {
+    width: 211px;
+    height: 73px;
+    border-radius: 18px;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.pixel-right-section-card-right-telegram {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 3px;
+    padding: 11px 20px;
+}
+
+.pixel-right-section-card-right-number {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pixel-right-section-card-right-number-p {
+    color: rgb(0, 0, 0);
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.pixel-right-section-card-right-number-span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(37, 211, 102);
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 120%;
+}
