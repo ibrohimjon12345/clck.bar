@@ -85,11 +85,10 @@
     margin-top: 120px;
 }
 
-.pixel-left-section {
+.pixel-left-section-title-box {
     display: flex;
     flex-direction: column;
     gap: 24px;
-
 }
 
 .pixel-left-section-title {
@@ -182,7 +181,7 @@
     margin: 105px 129px;
 }
 
-.pixel-right-section-card-right{
+.pixel-right-section-card-right {
     margin-top: 503px;
 }
 
