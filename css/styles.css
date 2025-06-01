@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
@@ -141,3 +142,205 @@
 }
 .banner-right-img {
 }
+=======
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-top: 26px;
+    padding-bottom: 32px;
+    background-color: white;
+}
+
+.header-container {
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.header-nav-item {
+    list-style: none;
+}
+
+.header-nav-link {
+    font-family: 'Muller', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #050509;
+    text-decoration: none;
+}
+
+.header-nav-right {
+    display: flex;
+    gap: 16px;
+    background-color: #161A23;
+    align-items: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 56px;
+}
+
+.header-nav-right-item {
+    list-style: none;
+}
+
+.header-nav-right-link {
+    text-decoration: none;
+    font-family: 'Muller', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: white;
+}
+
+.header-nav-right-item2 {
+    list-style: none;
+}
+
+.header-nav-right-link2 {
+    text-decoration: none;
+    font-family: 'Muller', sans-serif;
+    color: #050509;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 8px;
+}
+
+
+
+
+/* BANNER */
+
+.banner {
+    padding-top: 32px;
+    padding-bottom: 120px;
+}
+
+.banner-container {
+    max-width: 1216px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.banner-left-div {
+    margin-bottom: 0.82px;
+    max-width: 606px;
+}
+
+.banner-left-title {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    font-family: 'Muller', sans-serif;
+    color: #050509;
+    margin-bottom: 8px;
+}
+
+.banner-left-text {
+    font-family: 'Muller', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    margin-bottom: 8px;
+    color: #FF76D9;
+    max-width: 520px;
+}
+
+.banner-left-text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.banner-left-text2-span {
+    font-family: 'Muller', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    color: #050509;
+    white-space: nowrap;
+}
+
+.banner-left-text3 {
+    font-family: 'Muller', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 8px;
+    color: #050509;
+
+}
+
+
+.banner-left-text4 {
+    font-family: 'Muller', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #050509;
+    max-width: 488px;
+    margin-bottom: 102px;
+}
+
+.banner-left-button-link1 {
+    text-decoration: none;
+    font-family: 'Muller', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    background-color: #161A23;
+    padding: 7px 12px 7px 12px;
+    border-radius: 10px;
+    color: white;
+}
+
+.banner-left-button-link2 {
+    text-decoration: none;
+    font-family: 'Muller', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    color: #050509;
+    background-color: #B7FE02;
+    padding: 13px 24px 13px 24px;
+    border-radius: 56px;
+}
+
+.banner-right {
+    display: flex;
+}
+
+.banner-right-img {
+    margin-right: -250px;
+    z-index: 2;
+}
+
+>>>>>>> 8fce5f1 (salom)
