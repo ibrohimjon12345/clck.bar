@@ -5,20 +5,27 @@
     text-decoration: none;
 }
 
+.pixel-container-block1{
+    border-bottom: 12px solid rgb(80, 251, 239);
+    position: relative;
+}
+
 .pixel-container {
     width: 1440px;
     margin: 0 auto;
     padding: 28px 112px;
-    position: relative;
+
 }
 
 .pixel-container-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
 
-
-
+.pixel-container-banner{
+    display: flex;
+    align-items: center;
 }
 
 .pixel-nav-clikbar {
@@ -81,18 +88,19 @@
     left: 84px;
 }
 
-.pixel-container-left-right-section {
+.pixel-container-banner {
     margin-top: 120px;
 }
 
-.pixel-left-section-title-box {
+.pixel-left-section {
     display: flex;
     flex-direction: column;
     gap: 24px;
+
 }
 
 .pixel-left-section-title {
-    width: 638px;
+    width: 798px;
     color: rgb(22, 26, 35);
     font-family: "Muller", sans-serif;
     font-size: 56px;
@@ -107,27 +115,78 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 23px;
+}
+
+.pixel-left-section-button-box {
+    position: relative;
+    margin-top: 79px;
+}
+
+.pixel-left-section-btn-bes {
+    width: 100px;
+    height: 32px;
+    border-radius: 10px;
+    background: rgb(22, 26, 35);
+    transform: rotate(-10.00deg);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Muller", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    position: absolute;
+    left: 91px;
+    top: -25px;
+}
+
+.pixel-left-section-btn-pop {
+    width: 204px;
+    height: 52px;
+    border-radius: 56px;
+    background: rgb(183, 254, 2);
+    border: none;
+    color: rgb(22, 26, 35);
+    font-family: "Muller", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
 }
 
 .pixel-right-section {
-    background-image: url(../pixel/pixelImg/Right.png);
+    background-image: url(../pixel/pixelImg/Ellipse.png);
     background-repeat: no-repeat;
     background-position: top;
     width: 1048px;
     height: 794px;
     position: absolute;
-    top: 0;
-    right: 0px;
+    top: 19px;
+    right: -84px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 100px 0;
 }
 
-.pixel-right-section-card-left {
-    margin-top: 560px;
-    margin-left: 150px;
+.pixel-right-section-box {
+    background-image: url(../pixel/pixelImg/Слой1\ 1.png);
+    background-repeat: no-repeat;
+    width: 440px;
+    height: 576px;
+    margin-top: 203px;
+    margin-left: 84px;
+
 }
+
+.pixel-section-right-left-card-box {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: -40px;
+    right: 161px;
+
+}
+
 
 .pixel-right-section-card-telegram {
     width: 211px;
@@ -182,7 +241,7 @@
 }
 
 .pixel-right-section-card-right {
-    margin-top: 503px;
+    /* margin-top: 503px; */
 }
 
 .pixel-right-section-card-right-telegram {
@@ -225,3 +284,5 @@
     font-weight: 500;
     line-height: 120%;
 }
+
+
